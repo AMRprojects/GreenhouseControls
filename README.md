@@ -22,4 +22,17 @@ Program goes on to calculate system insights such as Infinity norms, Step respon
 RosenbergPresentation.pptx summarizes setup and results  
 
 ***Reinforcement Learning Analysis***  
+Utilizes the files:  
+4. Simulation.m
+5. ControlSIM.m
+6. greenhouseEnv.m
+7. StepSimulation.m
+8. Rosenberg_Aaron_FinalPresentation.pptx  
+9. Rosenberg_Aaron_FinalReport.pdf  
+
+RL model uses reinforcement learning approach to attempt to create an equivalent control law as the optimal classical approach for the same system. Benefits of obtaining an equivalent control law using RL would be the ability to control systems without known physical models. For more information on Reinforcement Learning in general and how it was used for this project, reference file number 8. and 9.  
+greenhouseEnv.m sets up greenhouse class for use in the main simulation "Simulation.m". Main simulation uses MATLAB built-in functions from Reinforcement Learning Toolbox to train simulation. "StepSimulation.m" generates the step response from the trained RL simulation. "ControlSIM.m" generates classical control step responses for identical parameters, to compare classical control to RL.  
+
+***Project is complete, future work should involve improved documentation within each file  
+***RL model had difficulties generating control law for such a complex system, future work should include lowering complexity to see if it yields better results -- also should include an attempt to increase speed of training using GPU
 
