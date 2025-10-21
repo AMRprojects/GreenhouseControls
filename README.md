@@ -10,7 +10,7 @@ The second analysis uses Reinforcement Learning (Machine Learning) to attempt to
 Utilizes the files:  
 1. ProjectSim.m  
 2. greenhouse_model.slx  
-3. RosenbergPresentation.pptx  
+3. ClassicalControl_Rosenberg_Aaron.pdf  
 
 ProjectSim.m defines parameters based on the article  
 Equilibrium values for outputs and linearized matrices are defined using classical control techniques, good reference here: https://apmonitor.com/pdc/index.php/Main/ModelLinearization  
@@ -27,8 +27,8 @@ Utilizes the files:
 5. ControlSIM.m  
 6. greenhouseEnv.m  
 7. StepSimulation.m  
-8. Rosenberg_Aaron_FinalPresentation.pptx  
-9. Rosenberg_Aaron_FinalReport.pdf  
+8. RL_Rosenberg_Aaron_FinalPresentation.pdf  
+9. RL_Rosenberg_Aaron_FinalReport.pdf  
 
 RL model uses reinforcement learning approach to attempt to create an equivalent control law as the optimal classical approach for the same system. Benefits of obtaining an equivalent control law using RL would be the ability to control systems without known physical models. For more information on Reinforcement Learning in general and how it was used for this project, reference file number 8. and 9.  
 greenhouseEnv.m sets up greenhouse class for use in the main simulation "Simulation.m". Main simulation uses MATLAB built-in functions from Reinforcement Learning Toolbox to train simulation. "StepSimulation.m" generates the step response from the trained RL simulation. "ControlSIM.m" generates classical control step responses for identical parameters, to compare classical control to RL.  
