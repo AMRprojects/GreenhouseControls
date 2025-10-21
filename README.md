@@ -23,10 +23,10 @@ RosenbergPresentation.pptx summarizes setup and results
 
 ***Reinforcement Learning Analysis***  
 Utilizes the files:  
-4. Simulation.m
-5. ControlSIM.m
-6. greenhouseEnv.m
-7. StepSimulation.m
+4. Simulation.m  
+5. ControlSIM.m  
+6. greenhouseEnv.m  
+7. StepSimulation.m  
 8. Rosenberg_Aaron_FinalPresentation.pptx  
 9. Rosenberg_Aaron_FinalReport.pdf  
 
